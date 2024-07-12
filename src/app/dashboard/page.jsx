@@ -1,17 +1,12 @@
-// pages/index.js (or wherever your main page component is)
-"use client"
+// src/app/dashboard/page.jsx
 import React from 'react';
-import Header from '../components/header/Header';
-import Navbar from '../Components/navbar/Navbar';
 
-const Page = () => {
+const DashboardPage = () => {
   return (
-    <div className="flex flex-col h-screen">
-      <Header />
-      <div className="flex-grow"> {/* Your main content here */} </div>
-      <Navbar/>
+    <div>
+     
     </div>
   );
 };
 
-export default Page;
+export default DashboardPage;
